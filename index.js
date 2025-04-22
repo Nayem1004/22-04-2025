@@ -10,8 +10,7 @@ let arr = [1, 1, 2, 3, 4, 4, 5, 6, 7, 7, 7, 8, 9, 9, 9, 9];
       }
     }
     //console.log(newArr)
-    let outputDiv = newArr;
-    document.getElementById("output").innerHTML = outputDiv;
+
 
 
 
@@ -26,7 +25,7 @@ function duplicatesNum(arr) {
     return newArr;
   }
   result = duplicatesNum(arr);
-  console.log(result);
+  //console.log(result);
 
   //max value of array
 
@@ -37,4 +36,6 @@ for(let i = 0; i<array.length; i++){
     max = array[i]
    }
 }
-console.log(max)
+//console.log(max)
+
+
